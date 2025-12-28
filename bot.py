@@ -5,9 +5,9 @@ from telegram import Update
 import asyncio
 from datetime import datetime, timedelta
 
-TELEGRAM_TOKEN = ""
-ADMIN_ID = 664
-SECOND_ADMIN_ID = 1397
+TELEGRAM_TOKEN = "8531693522:AAH0Snx7yFUhZnaEC5KJ5E09iREHdd7fZuc"
+ADMIN_ID = 8531693522
+SECOND_ADMIN_ID = 8531693522
 BOT_OWNER = "soulcracks_owner"
 
 approved_users = {}
@@ -30,8 +30,8 @@ def approve_user(user_id: int, days: int):
         'approved_days': days
     }
 
-approve_user(ADMIN_ID, 36500)
-approve_user(SECOND_ADMIN_ID, 36500)
+approve_user(ADMIN_ID, 8531693522)
+approve_user(SECOND_ADMIN_ID, 8531693522)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_msg = """
