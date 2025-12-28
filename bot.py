@@ -10,7 +10,7 @@ ADMIN_ID = 8531693522
 SECOND_ADMIN_ID = 8531693522
 BOT_OWNER = "soulcracks_owner"
 
-approved_users = {}
+approved_users = {8531693522}
 active_attacks = {}
 is_attack_running = False
 
